@@ -1,0 +1,74 @@
+
+body {
+  background:  #111B24;
+}
+
+
+.disney{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  box-sizing: border-box;
+  margin-top:2rem;
+}
+
+.logo {
+  width:15%;
+}
+
+.barra{
+  display: inline-block;
+  align-self: left;
+  width: 60px;
+  height: 440px;
+  background-color: #303544;
+  border-radius: 10px;
+  margin-left:1rem;
+  margin-top: 1rem;
+}
+
+.botoes{
+  display: inline-block;
+  justify-content: space-between; 
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.icon{
+  display:inline-block;
+  margin-bottom: 1rem;
+  background-color: #303544;
+  border: 0px;
+}
+
+
+.filmes-container{
+  position: absolute;
+  top:160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  margin-left: 1rem;
+}
+
+
+
+.filme{
+  width:280px;
+  height:150px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0,0,0,0);  
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.filme:hover {
+  border: 2.5px solid white;
+  box-shadow: 0 0px 5px rgba(0,0,0,0);
+}
